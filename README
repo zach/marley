@@ -1,0 +1,35 @@
+marley
+A .ma (MayaAscii) parser in Ragel and tools.
+
+1. Status
+
+Right now, there is just a utility I wrote called matree, but this will serve
+as a basis for a library and some simple tools that use that library.
+
+2. Installing
+
+You'll need Ragel:
+
+http://www.cs.queensu.ca/~thurston/ragel/
+
+Then just use Ragel to compile matree.rl into matree.c and compile that. 
+
+I've only tested this on Mac OS X 10.5 and Fedora Core 6.
+
+3. License
+
+The files in this project are licensed under the MIT license as explained in
+the LICENSE file.
+
+4. Future
+
+In addition to a tool to print nodes with their full path, it's anticipated
+that there will be a tool to categorize the nodes in a .ma file by type.
+I'm interested in the real-world needs that tools using this library can fill,
+things that can't be easily done using text tools like grep and sed.
+
+5. Contact
+
+Please email me at zach@zachbaker.com if you have any questions or suggestions.
+
+-- Zach Baker.
